@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LinkedIn Cookie Manager</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 10px; }
+        #consent { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div id="consent">
+        <p>This extension accesses your LinkedIn cookies to [describe functionality]. Do you consent to this?</p>
+        <button id="consentYes">Yes, I consent</button>
+        <button id="consentNo">No, I do not consent</button>
+    </div>
+    <button id="getCookies" style="display:none;">Get LinkedIn Cookies</button>
+    <button id="loginLinkedIn" style="display:none;">Login to LinkedIn</button>
+    <script src="popup.js"></script>
+</body>
+</html>

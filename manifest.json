@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Cookie Manager",
+  "version": "1.0",
+  "description": "Manages LinkedIn cookies with user consent.",
+  "permissions": ["cookies", "*://*.linkedin.com/*",  "storage", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+
+
